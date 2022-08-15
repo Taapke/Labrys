@@ -2,6 +2,8 @@ package Labrys.controller;
 
 import Labrys.model.SoundPlayer;
 import javafx.fxml.FXML;
+import javafx.scene.image.Image;
+import javafx.scene.layout.*;
 
 import java.util.Timer;
 
@@ -10,6 +12,8 @@ import java.util.Timer;
  */
 
 public class SoundboardController {
+
+
     SoundPlayer soundPlayer = new SoundPlayer();
     Timer timer = new Timer();
     @FXML

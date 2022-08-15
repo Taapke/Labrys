@@ -7,17 +7,29 @@
 <?import javafx.scene.layout.*?>
 
 
-<VBox alignment="TOP_CENTER" spacing="50" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="Labrys.controller.SoundboardController">
-    <Label text="soundboard"/>
+<VBox alignment="TOP_CENTER" spacing="50"  xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="Labrys.controller.SoundboardController"
+      style="
+      -fx-background-image: url(https://cdn.pixabay.com/photo/2022/06/23/18/45/ufo-7280415_960_720.jpg);
+      -fx-background-position: center center;">
+    <Label text="soundboard"
+        style="-fx-font-family: Impact;
+       -fx-font-size: 50px;
+       -fx-text-fill: rgb(237, 237, 218);"/>
     <HBox alignment="CENTER" spacing="40.0">
         <VBox>
-            <Label text="Sounds" />
+            <Label text="Sounds"
+            style="
+                -fx-text-fill: rgb(237, 237, 218);
+                -fx-font-size: 20px;"/>
             <Button text="alarm" onAction="#alarm" />
 
         </VBox>
         <VBox>
-            <Label text="Soundbites" />
+            <Label text="Soundbites"
+                   style="
+                -fx-text-fill: rgb(237, 237, 218);
+                -fx-font-size: 20px;"/>
             <Button text="cryo opening" onAction="#cryo" />
             <Button text="spacedoor" onAction="#spacedoor" />
         </VBox>
