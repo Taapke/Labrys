@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8db3839a-e89f-42ab-bf58-0bfa8f2d117f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Labrys/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Labrys/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Labrys/controller/SoundboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Labrys/controller/SoundboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Labrys/model/SoundPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Labrys/model/SoundPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/views/soundboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/soundboard.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +79,10 @@
       <option name="presentableId" value="Default" />
       <updated>1660479607766</updated>
       <workItem from="1660479610852" duration="5849000" />
-      <workItem from="1660564678655" duration="2493000" />
+      <workItem from="1660564678655" duration="2837000" />
+      <workItem from="1660738646972" duration="4000" />
+      <workItem from="1661941540906" duration="672000" />
+      <workItem from="1662196212169" duration="3526000" />
     </task>
     <servers />
   </component>
